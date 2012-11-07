@@ -1,0 +1,19 @@
+{
+  "name": "nodefest-notify",
+  "version": "0.0.0",
+  "description": "scrape nodefest ticket",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "~0.10.1",
+    "request": "~2.11.4",
+    "twitter": "*",
+    "cron": "*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "Jxck",
+  "license": "MIT"
+}
