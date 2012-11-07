@@ -34,7 +34,7 @@ function tweet_message(stats) {
     message.push('http://atnd.org/event/Nodefest2012');
     message.push('#nodefest');
 */
-    message.push('Dummy jitsu!');
+    message.push('Dummy jitsu!y');
   }
   return message.join('\n');
 }
