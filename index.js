@@ -28,10 +28,13 @@ function scrape(body) {
 function tweet_message(stats) {
   var message = [];
   if(stats.fest) {
+/*
     message.push('学園祭のチケットに空きがでています!');
     message.push('キャンセル待ちをされている方はこちらからどうぞ!!');
     message.push('http://atnd.org/event/Nodefest2012');
     message.push('#nodefest');
+*/
+    message.push('Dummy jitsu!');
   }
   return message.join('\n');
 }
@@ -69,9 +72,9 @@ function cron(interval) {
 
 // test
 // every 1 sec
-// var interval = "* * * * * *";
+var interval = "* * * * * *";
 
 // every 15 minutes
-var interval = "*/15 * * * *";
+//var interval = "*/15 * * * *";
 
 cron(interval);
